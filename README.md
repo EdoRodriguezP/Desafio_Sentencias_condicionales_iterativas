@@ -41,6 +41,42 @@ python imc.py 81 178
 Su IMC es 25.56
 La clasificación OMS es Sobrepeso
 
+## Actividad 2 - Cachipún
+
+El Cachipún (también conocido como chin chan pu, pikachú, jankenpón, yan ken po, pin pon papas, hakembó o how-are-you-speak) es un juego de manos con tres elementos:
+
+- **Piedra** vence a **tijera** (la rompe)
+- **Tijera** vence a **papel** (lo corta)
+- **Papel** vence a **piedra** (la envuelve)
+
+Formando así un ciclo cerrado de reglas. Se utiliza frecuentemente para tomar decisiones entre dos personas.
+
+### Requerimientos
+
+Se implementará un programa `cachipun.py` donde:
+
+1. El usuario ingresa como argumento: `piedra`, `papel` o `tijera`
+2. El computador elige aleatoriamente usando `random.choice()`
+3. Se determinan las posibles salidas:
+   - Ganar
+   - Perder
+   - Empatar
+4. Validación de entrada:
+   - Si el argumento no es válido, mostrar mensaje de error
+
+### Ejemplo de ejecución
+
+python juego.py piedra
+
+Tu jugaste Piedra
+Computador jugó tijera
+Ganaste!!
+
+python juego.py papelon
+Argumento inválido: Debe ser piedra, papel o tijera.
+
+
+
 
 
 
