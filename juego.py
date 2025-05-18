@@ -27,14 +27,14 @@ def jugar_piedra_papel_tijeras(jugador):
         resultado = "¡Perdiste!"
     
     # Imprime los resultados
-    print(f"\nTu elección: {jugador}")
-    print(f"Computadora: {computadora}")
+    print(f"\nTu jugaste: {jugador}")
+    print(f"Computador jugó: {computadora}")
     print(resultado)
 
 #Para que este código solo se ejecute cuando el script es el programa principal
 if __name__ == "__main__":
     if len(sys.argv) != 2:  #Es una lista que contiene los argumentos de línea de comandos 
-        print("Uso: python juego.py [piedra|papel|tijeras]")
+        print("Uso: python juego.py 'piedra', 'papel' o 'tijeras'")
         print("Ejemplo: python juego.py piedra")
     else:
         jugar_piedra_papel_tijeras(sys.argv[1])
